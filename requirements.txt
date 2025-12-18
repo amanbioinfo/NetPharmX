@@ -43,3 +43,44 @@ biopython
 lime
 #streamlit_option_menu
 openpyxl
+# Core
+python>=3.9
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+
+# Streamlit web app
+streamlit>=1.32
+
+# Plotting (publication-ready)
+matplotlib>=3.7
+seaborn>=0.12
+plotly>=5.18
+
+# Network analysis
+networkx>=3.1
+pyvis>=0.3.2
+
+# Bioinformatics / enrichment
+gseapy>=1.1.2
+
+# Chemical informatics
+rdkit-pypi>=2022.9.5
+
+# STRING / API handling
+requests>=2.31
+
+# Graph layouts & SVG handling
+python-louvain>=0.16
+svgwrite>=1.4
+cairosvg>=2.7
+
+# Fonts & styling
+matplotlib-inline>=0.1.6
+
+# Optional (safe, used in some environments)
+tqdm>=4.66
+scikit-learn>=1.3
+
+# Export utilities
+kaleido>=0.2.1
